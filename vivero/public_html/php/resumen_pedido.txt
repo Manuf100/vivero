@@ -1,0 +1,16 @@
+Resumen de Compra:
+
+Nombre: Tomas
+Apellido: Lopez
+Email: mmp20745@gmail.com
+Dirección: Buenos Aires, 1458
+Ciudad: Salta
+Provincia: Salta
+País: Argentina
+Código Postal: 4400
+Medio de Pago: Transferencia
+Comentarios: 
+
+Productos:
+CONECTOR PARA CANILLA (AQUAFLEX ) - Cantidad: 1
+Total: 2600

@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(176, 230, 95);
+}
+
+#container-recup, #container-crear {
+    display: none; /* Oculta el formulario de recuperación inicialmente */
+}
+.general {
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 80%; /* Ancho predeterminado para pantallas pequeñas */
+    max-width: 400px; /* Máximo ancho para pantallas grandes */
+    margin: 0 auto; /* Centra horizontalmente */
+    position: relative;
+    top: 75px; /* Ajusta este valor para bajar el elemento */
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total */
+    background-color: rgba(187, 185, 52, 0.62);
+}
+
+
+/* Unificar padding para ambos contenedores */
+#container, #container-recup, #container-crear {
+    padding: 15px;
+}
+
+
+input, select {
+    width: 100%; /* Asegura que los campos de texto se adapten al tamaño del contenedor */
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%; /* Botones responsivos */
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (min-width: 768px) {
+    .general {
+        width: 50%; /* Ancho para pantallas medianas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .general {
+        width: 30%; /* Ancho para pantallas más grandes */
+    }
+}

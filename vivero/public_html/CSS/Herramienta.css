@@ -1,0 +1,107 @@
+body {
+    background-color: #fdf1ec;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1200px; /* Ajustar el ancho máximo según tus necesidades */
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap; /* Para que las tarjetas se envuelvan en filas */
+    justify-content: center; /* Para centrar las tarjetas horizontalmente */
+}
+
+.product-card {
+    flex: 0 0 30%; /* Para que cada tarjeta ocupe el 48% del contenedor y tenga espacio entre ellas */
+    margin: 10px; /* Espacio entre las tarjetas */
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.product-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+    .product-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 7px 7px 0 0;
+    }
+
+.product-info {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0 0 7px 7px;
+}
+
+.product-text {
+    text-align: center;
+}
+
+    .product-text h1 {
+        font-size: 24px;
+        color: #474747;
+    }
+
+    .product-text p {
+        color: #8d8d8d;
+        line-height: 1.7em;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+.product-price-btn {
+    text-align: center;
+}
+
+    .product-price-btn p {
+        font-size: 28px;
+        color: #474747;
+        margin-bottom: 20px;
+    }
+
+    .product-price-btn button {
+        display: inline-block;
+        height: 50px;
+        width: 176px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #9cebd5;
+        cursor: pointer;
+        outline: none;
+    }
+
+        .product-price-btn button:hover {
+            background-color: #79b0a1;
+        }
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}

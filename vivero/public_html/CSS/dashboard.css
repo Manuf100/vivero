@@ -1,0 +1,209 @@
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+#crud-usuarios{
+    border: 2px solid rgba(0, 0, 0, 0.745);
+    padding:10px;
+    border-radius: 10px;
+}
+/* Form Styles */
+#agregarU {
+    background-color: rgb(185, 92, 92);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#agregarU form {
+    display: flex;
+    flex-direction: column;
+}
+
+#agregarU form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#agregarU form button {
+    background-color: #b6a300;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#agregarU form button:hover {
+    background-color: #985f03; /* Color de fondo al pasar el mouse */
+}
+
+/* Table Styles */
+#verU table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+#verU table, #verU th, #verU td {
+    border: 2px solid rgba(0, 0, 0, 0.873);
+}
+
+#verU th, #verU td {
+    padding: 10px;
+    text-align: left;
+}
+
+#verU th {
+    background-color: #5f3d03;
+    color: white;
+}
+
+/* Form Styles */
+#formularioEditar {
+    background-color: rgb(185, 92, 92);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#formularioEditar form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioEditar form input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formularioEditar form button {
+    background-color: #b6a300;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#formularioEditar form button:hover {
+    background-color: #985f03; /* Color de fondo al pasar el mouse */
+}
+
+/*CRUD PRODUCTOS*/
+#crud-productos{
+    border: 2px solid rgba(0, 0, 0, 0.745);
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+/* Form Styles */
+#agregarP {
+    background-color: rgb(3, 174, 174);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#agregarP form {
+    display: flex;
+    flex-direction: column;
+}
+
+#agregarP form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#agregarP form button {
+    background-color: #1b00b6;
+    color: rgb(247, 247, 247);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#agregarP form button:hover {
+    background-color: #4220a0; /* Color de fondo al pasar el mouse */
+}
+
+/* Table Styles */
+#verP table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+#verP table, #verP th, #verP td {
+    border: 2px solid rgba(0, 0, 0, 0.873);
+}
+
+#verP th, #verP td {
+    padding: 10px;
+    text-align: left;
+}
+
+#verP th {
+    background-color: #5f3d03;
+    color: white;
+}
+
+/* Form Styles */
+#formularioEditarProducto {
+    background-color: rgb(185, 92, 92);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#formularioEditarProducto form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioEditarProducto form input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formularioEditarProducto form button {
+    background-color: #b6a300;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#formularioEditarProducto form button:hover {
+    background-color: #985f03; /* Color de fondo al pasar el mouse */
+}
+.mensaje{
+    width: 25%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

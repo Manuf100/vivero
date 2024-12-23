@@ -1,0 +1,5 @@
+[29-Sep-2024 16:57:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'contraseña' cannot be null in C:\xampp\htdocs\vivero\public_html\php\crear_usuario.php:44
+Stack trace:
+#0 C:\xampp\htdocs\vivero\public_html\php\crear_usuario.php(44): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\vivero\public_html\php\crear_usuario.php on line 44

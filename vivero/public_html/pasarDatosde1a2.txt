@@ -1,0 +1,4 @@
+UPDATE vivero.productos AS dest
+JOIN vivero2.productos AS orig
+    ON dest.id = orig.id  -- Suponiendo que 'id' es la columna clave para la actualización
+SET dest.precio = orig.precio;  -- 'atributo' es el nombre del campo que deseas actualizar

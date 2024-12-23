@@ -1,0 +1,91 @@
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+#est1, #est2, #est3{
+    border: 2px solid rgba(0, 0, 0, 0.745);
+    padding:10px;
+    border-radius: 10px;
+}
+
+/* Table Styles */
+#estProd table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+#estProd table, #estProd th, #estProd td {
+    border: 2px solid rgba(0, 0, 0, 0.873);
+}
+
+#estProd th, #estProd td {
+    padding: 10px;
+    text-align: left;
+}
+
+#estProd th {
+    background-color: #5f3d03;
+    color: white;
+}
+#estProd tr:nth-child(odd) {
+    background-color: #b4b4b4; /* Color para filas impares */
+}
+
+/*tabla 2*/
+#estUsuarios table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#estUsuarios table, #estUsuarios th, #estUsuarios td {
+    border: 2px solid rgba(0, 0, 0, 0.873);
+}
+
+#estUsuarios th, #estUsuarios td {
+    padding: 10px;
+    text-align: left;
+}
+
+#estUsuarios th {
+    background-color: #e29105;
+    color: rgb(0, 0, 0);
+}
+
+/* Intercalar colores entre filas */
+#estUsuarios tr:nth-child(odd) {
+    background-color: #b4b4b4; /* Color para filas impares */
+}
+
+/*tabla 3*/
+#estGanancias table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#estGanancias table, #estGanancias th, #estGanancias td {
+    border: 2px solid rgba(0, 0, 0, 0.873);
+}
+
+#estGanancias th, #estGanancias td {
+    padding: 10px;
+    text-align: left;
+}
+
+#estGanancias th {
+    background-color: #00c7d6;
+    color: rgb(0, 0, 0);
+}
+
+#estGanancias tr:nth-child(odd) {
+    background-color: #b4b4b4; /* Color para filas impares */
+}
+
+canvas {
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}

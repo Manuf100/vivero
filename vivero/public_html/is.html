@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="CSS/is.css">
+    <style>
+        .error {
+            color: rgb(1, 1, 0); /* Color rojo para el mensaje de error */
+            display: none; /* Oculto por defecto */
+            font-size: 18px;
+            border: 2px solid black;
+            padding: 2px;
+            text-align: center;
+            background-color: rgb(254, 0, 0);
+        }
+        .correcto {
+            color: rgb(1, 1, 0); /* Color rojo para el mensaje de error */
+            display: none; /* Oculto por defecto */
+            font-size: 18px;
+            border: 2px solid black;
+            padding: 2px;
+            text-align: center;
+            background-color: rgb(0, 165, 254);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="general">
+            <div id="container">
+                <h3>INICIAR SESIÓN</h3>
+                <form id="login-form" action="http://localhost/vivero/public_html/php/procesar_login.php" method="POST">
+                    <div>
+                        <label for="usuario">Mail:</label>
+                        <input type="email" id="usuario" name="usuario" required><br>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required><br>
+                        <a href="#" onclick="mostrarRecuperacion()">Cambiar contraseña</a><br>
+                        <a href="#" onclick="mostrarCrear()">Crear cuenta</a><br><br>
+                        <button type="submit">Ingresar</button>
+                    </div>
+                    <br><label id="error-message" class="error">Usuario o contraseña incorrectos</label>
+                </form>
+            </div>
+
+            <div id="container-recup" style="display:none;">
+                <h3>RECUPERAR CONTRASEÑA</h3>
+                <form id="recover-form" onsubmit="">
+                    <div>
+                        <label for="usuario-recup">Mail:</label>
+                        <input type="email" id="usuario-recup" name="usuario" required><br>
+                        <label for="new-password">Contraseña nueva:</label>
+                        <input type="password" id="new-password" name="new-password" required><br>
+                        <a href="#" onclick="mostrarSesion()">Iniciar sesión</a><br>
+                        <a href="#" onclick="mostrarCrear()">Crear cuenta</a><br><br>
+                        <button type="submit">Cambiar</button>
+                    </div>
+                    <br><label id="error-message-recup" class="correcto">CONTRASEÑA CAMBIADA</label>
+                    <label id="error-message-recup2" class="error">ERROR AL CAMBIAR LA CONTRASEÑA</label>
+                </form>
+            </div>
+
+            <div id="container-crear" style="display:none;">
+                <h3>CREAR CUENTA</h3>
+                <form id="create-form" onsubmit="">
+                    <div>
+                        <label for="usuario-crear">Mail:</label>
+                        <input type="email" id="usuario-crear" name="usuario" required><br>
+                        <label for="password-crear">Contraseña:</label>
+                        <input type="password" id="password-crear" name="password" required><br>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required><br>
+                        <a href="#" onclick="mostrarRecuperacion()">Cambiar contraseña</a><br>
+                        <a href="#" onclick="mostrarSesion()">Iniciar sesión</a><br><br>
+                        <button type="submit">Crear</button>
+                    </div>
+                    <br>
+                    <label id="error-message-crear" class="error" style="display: none;">Error al crear la cuenta</label>
+                    <label id="error-message-crear2" class="correcto" style="display: none;">Cuenta creada correctamente</label>
+                </form>                
+            </div>
+        </div>
+    </main>
+
+    <script src="JS/sesion.js">
+
+    </script>
+</body>
+</html>

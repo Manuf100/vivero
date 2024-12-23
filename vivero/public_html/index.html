@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - Vivero</title>
+    <link href="CSS/inicio.css" rel="stylesheet" />
+    <link href="CSS/sitemaster.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="botonImagen"><img class="imagenLogo" src="IMAGENES/logo.png" alt="Logo" /></a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>
+                        <a href="#">Productos</a>
+                        <ul>
+                            <li><a href="Plantas.html">Plantas</a></li>
+                            <li><a href="Semillas.html">Semillas</a></li>
+                            <li><a href="Macetas%20y%20Platos.html">Macetas y platos</a></li>
+                            <li><a href="Herramienta.html">Herramienta</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Vivero</a>
+                        <ul>
+                            <li><a href="Contacto.html">Contacto</a></li>
+                            <li><a href="Locales.html">Locales</a></li>
+                            <li><a href="Política%20de%20Devolución.html">Política de devolución</a></li>
+                            <li><a href="Preguntas%20Frecuentes.html">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Tips%20y%20cuidados.html">Tips y cuidados</a></li>
+                    <li id="ventana">
+                        <a href="#">Dashboard</a>
+                        <ul>
+                            <li><a href="crud.html">CRUD</a></li>
+                            <li><a href="estadistica.html">ESTADISTICAS</a></li>
+                            <li><a href="actualizaciones.html">ACTUALIZACIÓN MASIVA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                <a href="Productos2.html"><lord-icon
+                    src="https://cdn.lordicon.com/kkvxgpti.json"
+                    trigger="hover"
+                    style="width:100px;height:100px">
+                </lord-icon></a>
+                <a href="Compra.html"><lord-icon
+                    src="https://cdn.lordicon.com/mfmkufkr.json"
+                    trigger="hover"
+                    style="width:100px;height:100px">
+                </lord-icon></a>
+                <a href="is.html">
+                    <img src="data:image/png;base64,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"/>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <hr class="barra-header"/>
+
+    <main>
+        <!-- Contenido principal -->
+        <!--
+        <div id="cincopa_4fb880" style="width: 1125px">...</div>
+        <script type="text/javascript">
+            var cpo = []; 
+            cpo["_object"] = "cincopa_4fb880"; 
+            cpo["_fid"] = "AkAAURfsD1rd";
+            var _cpmp = _cpmp || []; 
+            _cpmp.push(cpo);
+            (function () {
+                var cp = document.createElement("script"); 
+                cp.type = "text/javascript";
+                cp.async = true; 
+                cp.src = "https://rtcdn.cincopa.com/libasync.js";
+                var c = document.getElementsByTagName("script")[0];
+                c.parentNode.insertBefore(cp, c);
+            })(); 
+        </script>--><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        
+        <div class="info">
+            <h2 style="text-align:center;"><b>RECIBÍ EL PEDIDO EN TU HOGAR O RETIRALO POR NUESTRO LOCAL DE PALERMO</b></h2>
+            <p style="text-align:center;">Te contactaremos por WhatsApp desde el sector de ENVÍOS para coordinar el pedido - Tiempo de Entrega: 1 a 3 días hábiles<br />
+                Atención Virtual: Lunes a Sábado de 10 a 18 hs.</p>
+        </div>
+        <br /><br /><br />
+        <h3 style="text-align:center;">NUESTROS PRODUCTOS</h3>
+        <div class="boxesContainer">
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front" id="uno-inicio">
+                        <h3 class="h3inicio">PLANTAS</h3>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back" id="uno-iniciob">
+                        <a href="Plantas.html" class="ia">PLANTAS</a><br /><br /><br /><br /><br /><br />
+                        <p class="pinfo">Nuestras mejores plantas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front" id="dos-inicio">
+                        <h3 class="h3inicio">SEMILLAS</h3>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back" id="dos-iniciob">
+                        <a href="Semillas.html" class="ia">SEMILLAS</a><br /><br /><br /><br /><br /><br />
+                        <p class="pinfo">Tenemos semillas de todo tipo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front" id="tres-inicio">
+                        <h3 class="h3inicio">MACETAS</h3>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back" id="tres-iniciob">
+                        <a href="Macetas%20y%20Platos.html" class="ia">MACETAS</a><br /><br /><br /><br /><br /><br />
+                        <p class="pinfo">Tenemos distintas medidas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front" id="cuatro-inicio">
+                        <h3 class="h3inicio">HERRAMIENTAS</h3>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back" id="cuatro-iniciob">
+                        <a href="Herramienta.html" class="ia">HERRAMIENTAS</a><br /><br /><br /><br /><br /><br />
+                        <p class="pinfo">Herramientas de calidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br /><br />
+        <a href="https://www.instagram.com/viveromariook/" target="_blank">
+            <img src="IMAGENES/Captura%20de%20pantalla%202024-05-30%20130137.png" />
+        </a>
+    </main>
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.02,96.04 C148.52,176.83 348.85,-3.45 501.79,99.00 L500.00,149.74 L0.00,149.74 Z" style="stroke: none; fill: black;"></path></svg></div>
+    
+    <!-- Footer -->
+    <footer>
+        <section class="top">
+            <ul>
+                <li>
+                    <h3>PRODUCTOS</h3>
+                    <a href="Plantas.html">Plantas</a>
+                    <a href="Macetas%20y%20Platos.html">Macetas y Platos</a>
+                    <a href="Semillas.html">Semillas</a>
+                    <a href="Herramienta.html">Herramienta</a>
+                </li>
+                <li>
+                    <h3>Vivero</h3>
+                    <a href="Contacto.html">Contacto</a>
+                    <a href="Locales.html">Locales</a>
+                    <a href="Política%20de%20Devolución.html">Política de Devolución</a>
+                    <a href="Preguntas%20Frecuentes.html">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <h3>Tips</h3>
+                    <a href="Tips%20y%20cuidados.html">Tips y cuidados</a>
+                </li>
+            </ul>
+        </section>
+        <section class="bottom">2024 Página hecha por Manuel Figueroa</section>
+    </footer>
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script>
+        let tipo;
+        tipo=localStorage.getItem('tipo_cliente');
+        if (tipo === 'Dueño') {
+            document.getElementById('ventana').style.display = 'block';
+        }
+        else{
+            document.getElementById('ventana').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

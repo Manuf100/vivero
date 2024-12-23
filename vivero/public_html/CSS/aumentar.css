@@ -1,0 +1,108 @@
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+#ACTUALIZACION{
+    border: 2px solid rgba(0, 0, 0, 0.745);
+    padding:10px;
+    border-radius: 10px;
+}
+/* Form Styles */
+#aumentarP {
+    background-color: rgb(185, 92, 92);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#aumentarP form {
+    display: flex;
+    flex-direction: column;
+}
+
+#aumentarP form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#aumentarP form select {
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#aumentarP form button {
+    background-color: #b6a300;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aumentarP form button:hover {
+    background-color: #985f03; /* Color de fondo al pasar el mouse */
+}
+
+.mensaje{
+    width: 25%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#ACTUALIZACION2{
+    border: 2px solid rgba(0, 0, 0, 0.745);
+    padding:10px;
+    border-radius: 10px;
+}
+/* Form Styles */
+#bajarP {
+    background-color: rgb(92, 185, 93);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.625);
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.745);
+}
+
+#bajarP form {
+    display: flex;
+    flex-direction: column;
+}
+
+#bajarP form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#bajarP form select {
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#bajarP form button {
+    background-color: #b6a300;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bajarP form button:hover {
+    background-color: #985f03; /* Color de fondo al pasar el mouse */
+}

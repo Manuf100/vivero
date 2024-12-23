@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: fixed;
+    background: rgb(0,89,8);
+    background: linear-gradient(166deg, rgba(0,89,8,1) 0%, rgba(0,173,3,1) 43%, rgba(97,255,67,1) 80%, rgba(193,244,184,1) 100%);
+    display: grid;
+}
+
+
+.imagenLogo {
+    margin-right: 25px;
+    width: 100px;
+    height: 70px;
+}
+
+.container {
+    width:75%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px; /* Ajusta el espacio entre la imagen y la parte superior */
+}
+
+.barra {
+    height: 100px; /* Altura de la barra igual a la imagen */
+    width: 5px; /* Ancho de la barra */
+    background-color: black; /* Color de la barra */
+}
+
+main {
+    margin-top: 40px; /* Ajusta este valor según la altura de tu header */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+    nav ul {
+        width: 100%;
+        list-style: none;
+    }
+
+    nav > ul {
+        display: table;
+        width: 100%;
+        background: #000000;
+        position: relative;
+    }
+
+        nav > ul li {
+            display: table-cell;
+        }
+
+        nav > ul > li:hover > ul {
+            display: block;
+            height: 100%;
+        }
+
+        nav > ul > li > ul {
+            display: block;
+            position: absolute;
+            background: #000;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            height: 0%;
+            transition: all .3s ease;
+        }
+
+        nav > ul li a {
+            color: antiquewhite;
+            display: block;
+            line-height: 20px;
+            padding: 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: all .3s ease;
+        }
+
+        nav > ul > li > ul > li a:hover {
+            color: blue;
+        }
+
+        nav > ul > li > a span {
+            background: #174459;
+            display: block;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            position: absolute;
+            top: -55px;
+            transition: all .3s ease;
+        }
+
+            nav > ul > li > a span .icon {
+                display: block;
+                line-height: 60px;
+            }
+
+        nav > ul > li > a:hover > span {
+            top: 0;
+        }
+
+.container body-content {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 20px;
+    background: black;
+    color: #f9f9f9;
+}
+
+    footer section {
+        padding: 0 50px;
+    }
+
+section.top {
+    padding-top: 30px;
+    margin-bottom: 48px;
+}
+
+    section.top ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+@media (width > 480px) {
+    section.top ul {
+        padding-right: 10%;
+    }
+}
+
+@media (width > 600px) {
+    section.top ul {
+        grid-template-columns: repeat(4, 1fr);
+        padding-right: 0;
+    }
+}
+
+section.top ul li a {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(255 255 255 / 90%);
+}
+
+section.top h3 {
+    color: rgb(255 255 255 / 40%);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+section.bottom {
+    padding-top: 10px;
+    border-top: 2px solid rgb(255 255 255 / 10%);
+    color: rgb(255 255 255 / 40%);
+    font-size: 13px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    .form-group button {
+        padding: 10px 15px;
+        background-color: #66FF99;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
