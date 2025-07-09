@@ -1,5 +1,5 @@
 # vivero
-Trabajo realizado para la materia "lewnguajes 4". Ecommrece de un vivero, usando como referencia "vivero mario"
+Trabajo realizado para la materia "lenguajes 4". Ecommrece de un vivero, usando como referencia "vivero mario"
 
 A la base de datos agregar el siguiente procedure:
 
